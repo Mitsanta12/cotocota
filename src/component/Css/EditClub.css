@@ -1,0 +1,59 @@
+/* Modifié CreateClub.css */
+
+.edit_club {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 45px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit_club h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.edit_club form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit_club label {
+  margin-bottom: 5px;
+}
+
+.edit_club input,
+.edit_club textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.edit_club button {
+  background-color: #5bc0de;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.edit_club button.cancel_button {
+  background-color: #d9534f;
+  margin-top: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .edit_club input,
+  .edit_club textarea {
+    width: 100%;
+  }
+}

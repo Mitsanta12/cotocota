@@ -1,0 +1,60 @@
+.annonces_list {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.no-annonces-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+  font-size: 50px; 
+  color: rgb(238, 62, 62); 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 4px solid #0a0a0a;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #100f0f;
+}
+
+.edit_button,
+.create_button {
+  font-size: 14px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+/* Styles pour les écrans plus petits (responsive) */
+@media (max-width: 768px) {
+  .annonces_list {
+    width: 90%;
+    padding: 10px;
+  }
+
+  th,
+  td {
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .edit_button,
+  .create_button {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
