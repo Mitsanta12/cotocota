@@ -25,9 +25,9 @@
     width: 56px;
     height: 48.496px;
     display: grid;
-    background: linear-gradient(to bottom left ,#0000 calc(50% - 1.1px),#303035 0 calc(50% + 1.1px),#0000 0) right/50% 100%,
-           linear-gradient(to bottom right,#0000 calc(50% - 1.1px),#303035 0 calc(50% + 1.1px),#0000 0) left /50% 100%,
-           linear-gradient(#303035 0 0) bottom/100% 2.2px;
+    background: linear-gradient(to bottom left ,#0000 calc(50% - 1.1px),#fffbfb 0 calc(50% + 1.1px),#0000 0) right/50% 100%,
+           linear-gradient(to bottom right,#0000 calc(50% - 1.1px),#fffbfb 0 calc(50% + 1.1px),#0000 0) left /50% 100%,
+           linear-gradient(#fffbfb 0 0) bottom/100% 2.2px;
     background-repeat: no-repeat;
     transform-origin: 50% 66%;
     animation: hypnotic-k788tl 4s infinite linear;
@@ -50,4 +50,7 @@
     100% {
        transform: rotate(1turn);
     }
+ }
+ .chargement{
+   color: #fffbfb !important;
  }

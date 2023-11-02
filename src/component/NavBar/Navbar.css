@@ -1,5 +1,5 @@
 .navbar {
-  background:   #985bf5b7;
+  background:   #222271b7;
   height: 70px;
   display: flex;
   align-items: center;
@@ -25,7 +25,7 @@
 
 .nav-item a {
   text-decoration: none;
-  color: black;
+  color: rgb(224, 217, 217);
   font-weight: bold;
 }
 

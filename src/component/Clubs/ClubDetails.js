@@ -63,7 +63,7 @@ function ClubDetails() {
     <div>
       <Navbar />
       <div className="club_details">
-        <h1>Détails sur le club</h1>
+        <h1 className="detail">Détails sur le club</h1>
         <div className="card">
           <p>ID du club: {club.club_id}</p>
           <p>Nom du club: {club.nom}</p>

@@ -5,7 +5,7 @@ function Loader() {
   return (
     <div className="loader-container">
       <div className="hypnotic"></div>
-      <p>Chargement en cours...</p>
+      <p className="chargement">Chargement en cours...</p>
     </div>
   );
 }
