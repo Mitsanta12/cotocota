@@ -1,26 +1,30 @@
 .navbar {
-  background:   #222271b7;
+  background:   #0a0a32b7;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
-  box-shadow: 0 10px 10px rgba(9, 9, 9, 0.1);
-  top:2;
   scroll-behavior: smooth;
-  position:  fixed top;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .menu-bars {
   cursor: pointer;
 }
-
+.logo{
+  margin: 50px;
+}
 .nav-items {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 15px;
   margin: 0;
-  padding: 0;
+  padding: 0; 
+  margin: 50px;
 }
 
 .nav-item a {
@@ -48,7 +52,7 @@
     position: absolute;
     top: 70px;
     left: -100%;
-    background-color:  #c5eef5;
+    background-color:  #0a0a32b7;
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: left 0.3s;

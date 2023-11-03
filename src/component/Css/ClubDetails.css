@@ -7,7 +7,7 @@
 .detail {
   text-align: center;
   margin-bottom: 20px;
-  color: #fff;
+  color: #111010;
 }
 .card {
   padding: 20px;
@@ -33,7 +33,7 @@ td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
-  color: aliceblue;
+  color: rgb(27, 27, 28);
 }
 
 th {
