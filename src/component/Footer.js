@@ -15,17 +15,17 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="lien_vers_linkedin" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/mitsanta-andriah-7b4294265/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
           </li>
           <li>
-            <a href="lien_vers_instagram" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/mitsanta_andriah/" target="_blank" rel="noopener noreferrer">
               <FaInstagram />
             </a>
           </li>
           <li>
-            <a href="https://wa.me/numéro_whatsapp" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp />
             </a>
           </li>
