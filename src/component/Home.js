@@ -35,6 +35,13 @@ function HomePage() {
               <p>Une interface conviviale et intuitive pour une expérience utilisateur agréable.</p>
             </div>
           </Slide>
+
+          <Slide left>
+            <div className="feature">
+              <h2>....</h2>
+              <p>lorem ipsum dolor</p>
+            </div>
+          </Slide>
         </div>
       </div>
       <Fade bottom>
