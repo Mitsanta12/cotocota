@@ -62,7 +62,7 @@ function Annonces() {
                 <tr key={annonce.annonce_id}>
                   <td>{annonce.titre}</td>
                   <td>{annonce.contenu}</td>
-                  <td>{annonce.club_id}</td>
+                  <td className="id">{annonce.club_id}</td>
                   <td>
                     <Link to={`/edit_annonce/${annonce.annonce_id}`}>
                       <button className="edit_button">Modifier</button>
