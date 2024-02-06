@@ -19,11 +19,9 @@ function HomePage() {
           <h1 className="home">Bienvenue sur CotiCota {displayName} !</h1>
         </Fade>
 
-        <div className='center'>
+        <div className='User'>
           <div className='profile'>
-            <h1>Profile</h1>
-            <div className='profile-info'>
-              
+            <div className='profile-info'>           
               {/* Affichage de l'email */}
               <div className='profile-item'>
                 <strong>Email:</strong> {currentUser?.email}
