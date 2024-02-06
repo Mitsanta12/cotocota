@@ -7,6 +7,7 @@ import { AuthProvider } from './component/AuthContext';
 import { auth } from './Login/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import ClubList from './component/Clubs/Clubs';
+import UserHome from './User_Components/UserHome';
 import HomePage from './component/Home';
 import CreateClub from './component/Clubs/CreateClub';
 import CreateMember from './component/Members/CreateMember';
@@ -34,6 +35,11 @@ function App() {
         <div className="App">
           <header className="App-header">
             <Routes>
+              <Route
+                path="/user_home"
+                element={!currentUser ? <Navigate to="/login" /> : <UserHome />}
+              />
+              
               <Route
                 path="/home"
                 element={!currentUser ? <Navigate to="/login" /> : <HomePage />}
