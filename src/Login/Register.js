@@ -43,7 +43,6 @@ function Register() {
               firstName: firstName,
               lastName: lastName,
               email: email,
-              // You can add more user data here if needed
             }).then(() => {
               sendEmailVerification(auth.currentUser)
                 .then(() => {
